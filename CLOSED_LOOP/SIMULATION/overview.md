@@ -181,6 +181,7 @@ while not at_goal(agent_position):
 
     render(agent_position, F_net)
 ```
+![image](https://github.com/user-attachments/assets/0ae1cdb0-98cb-4ee7-985a-6803a92f34d9)
 
 ---
 
