@@ -74,7 +74,7 @@ This project implements a real-time, closed-loop navigation system for an Autono
 
 ## 📄 License
 
-MIT License. Feel free to fork, use, and improve!
+ Apache License Version 2.0, January 2004. Feel free to fork, use, and improve!
 
 ---
 
