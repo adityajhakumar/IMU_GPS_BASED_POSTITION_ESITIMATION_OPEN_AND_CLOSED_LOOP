@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5db4e0a6-669b-4d67-9aac-7b0575257a30)
+
 # 📍 GPS vs IMU Dead Reckoning Path Visualization
 
 This project analyzes and visualizes real-time location data obtained from GPS and IMU sensors. It helps compare raw GPS data with IMU-based dead reckoning estimates when GPS is lost. It includes:
@@ -31,6 +31,7 @@ The project extracts:
 ### 🔹 `code 1`: Matplotlib Plot
 
 Plots GPS-only positions vs IMU-estimated ones when GPS was unavailable.
+![image](https://github.com/user-attachments/assets/3dee1e2f-6ae8-4232-b2c4-be9afd3e6370)
 
 **Features:**
 
@@ -40,14 +41,14 @@ Plots GPS-only positions vs IMU-estimated ones when GPS was unavailable.
 
 **Output:** A static plot displayed inline.
 
-![image](https://github.com/user-attachments/assets/a5f6e47b-21c8-42cf-9e6e-a64022c7ed39)
 
 ---
 
 ### 🔹 `code 2`: Folium Interactive Map
 
 Creates an HTML map (`gps_path_plot.html`) that visualizes GPS and IMU-based paths.
-![image](https://github.com/user-attachments/assets/b3723567-f936-458f-974b-abf36a87f7e2)
+![image](https://github.com/user-attachments/assets/df0220af-8776-4a28-b748-12feaa15394f)
+
 
 **Features:**
 
