@@ -33,6 +33,7 @@ This force pulls the agent towards the goal.
 ```text
 F_att = k_att * (p_goal - p_agent)
 ```
+![image](https://github.com/user-attachments/assets/25000cb0-4809-4196-ae0e-4b3bab2ea736)
 
 Where:
 - `F_att` is the attractive force vector.
@@ -48,6 +49,7 @@ This force pushes the agent away from obstacles that are within a **threshold di
 F_rep = k_rep * (1/d - 1/d0) * (1/d^2) * (p_agent - p_obs) / ||p_agent - p_obs||, if d < d0
 F_rep = 0, otherwise
 ```
+![image](https://github.com/user-attachments/assets/433fa775-b25a-411f-94ed-6c97565b9963)
 
 Where:
 - `F_rep` is the repulsive force.
@@ -129,6 +131,7 @@ Where:
 - `K`: Kalman Gain
 - `A, B, H`: system matrices
 - `Q, R`: noise covariances
+![image](https://github.com/user-attachments/assets/48529ccb-1aee-41de-9a92-5512f690207c)
 
 📚 **Reference**: Kalman, R.E. (1960), *A New Approach to Linear Filtering and Prediction Problems*.
 
